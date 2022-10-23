@@ -2,12 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family: 'Fasthand', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lobster', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Fasthand&family=Raleway:wght@100&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Fasthand&family=Lobster&family=Raleway:wght@100&display=swap');
+}
+
 body {
     margin-top: 150px;
-    
-    font-family: Roboto, sans-serif;
+    font-family: 'Lobster', cursive;
 }
 h1 {
+    font-family: 'Fasthand', cursive;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -23,7 +33,9 @@ input, label {
     margin-top: 16px;    
 }
 input {
+    font-family: 'Raleway', sans-serif;
     height: 30px;
+
 }
 input[type=submit] {
     width: 275px;
